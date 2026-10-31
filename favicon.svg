@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="12" fill="#f80000"/>
-  <g fill="none" stroke="#101010" transform="translate(8 8)">
-    <path d="M26 4 44 22 26 40 8 22Z" stroke-width="2.6"/>
-    <path d="M8 22 3 33 14 44 26 40" stroke-width="1.5"/>
-    <path d="M21 17H31V27H21Z" stroke-width="2.4"/>
-    <circle cx="26" cy="4" r="2.7" fill="#101010" stroke="none"/>
+  <g fill="#101010" transform="translate(9 9) scale(1.15)">
+    <path d="M20 1 39 20 20 39 1 20Z M20 8 32 20 20 32 8 20Z" fill-rule="evenodd"/>
+    <path d="M16 16H24V24H16Z"/>
   </g>
 </svg>

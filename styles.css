@@ -39,7 +39,7 @@ body {
   letter-spacing: -.025em;
 }
 .brand-mark { display: block; width: 32px; height: 32px; flex: 0 0 auto; }
-main { display: flex; align-items: center; padding: 48px var(--gutter); min-width: 0; }
+main { display: flex; align-items: center; justify-content: center; padding: 48px var(--gutter); min-width: 0; text-align: center; }
 h1 {
   margin: 0;
   font-size: clamp(48px, 15vw, 224px);

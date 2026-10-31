@@ -7,13 +7,13 @@
 }
 
 :root {
-  color-scheme: light;
+  color-scheme: dark;
   --red: #f80000;
-  --ink: #101010;
+  --black: #000000;
   --gutter: clamp(24px, 4vw, 80px);
   font-family: "Instrument Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: var(--ink);
-  background: var(--red);
+  color: var(--red);
+  background: var(--black);
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
 }
@@ -25,9 +25,9 @@ body {
   min-height: 100svh;
   display: grid;
   grid-template-rows: auto 1fr;
-  background: var(--red);
+  background: var(--black);
 }
-::selection { color: var(--red); background: var(--ink); }
+::selection { color: var(--black); background: var(--red); }
 .site-header { padding: clamp(28px, 3vw, 48px) var(--gutter); }
 .brand {
   display: flex;

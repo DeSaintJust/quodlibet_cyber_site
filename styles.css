@@ -38,7 +38,7 @@ body {
   line-height: 1.2;
   letter-spacing: -.025em;
 }
-.brand-mark { display: block; width: 28px; height: 28px; flex: 0 0 auto; }
+.brand-mark { display: block; width: 40px; height: 40px; flex: 0 0 auto; }
 main {
   grid-row: 2;
   display: flex;
@@ -71,6 +71,6 @@ h1 {
 .contact a:focus-visible { outline: 2px solid currentColor; outline-offset: 6px; }
 @media (max-width: 480px) {
   .brand { gap: 9px; font-size: 18px; }
-  .brand-mark { width: 24px; height: 24px; }
+  .brand-mark { width: 34px; height: 34px; }
   h1 { font-size: clamp(56px, 18vw, 86px); }
 }

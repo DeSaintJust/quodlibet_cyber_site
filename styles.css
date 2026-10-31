@@ -24,28 +24,10 @@ body {
   min-height: 100vh;
   min-height: 100svh;
   display: grid;
-  grid-template-rows: minmax(min-content, 1fr) auto minmax(24px, 1.1fr);
+  grid-template-rows: minmax(24px, 1fr) auto minmax(24px, 1.1fr);
   background: var(--black);
 }
 ::selection { color: var(--black); background: var(--red); }
-.site-header { grid-row: 1; align-self: start; padding: var(--gutter); }
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 11px;
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -.025em;
-}
-.brand-mark {
-  display: block;
-  width: 40px;
-  height: 40px;
-  flex: 0 0 auto;
-  /* Align the visible monogram with the lettering's optical centre. */
-  transform: translateY(-.3em);
-}
 main {
   grid-row: 2;
   display: flex;
@@ -77,7 +59,5 @@ h1 {
 .contact a:hover, .contact a:focus-visible { text-decoration: underline; text-underline-offset: .15em; }
 .contact a:focus-visible { outline: 2px solid currentColor; outline-offset: 6px; }
 @media (max-width: 480px) {
-  .brand { gap: 9px; font-size: 18px; }
-  .brand-mark { width: 34px; height: 34px; }
   h1 { font-size: clamp(56px, 18vw, 86px); }
 }

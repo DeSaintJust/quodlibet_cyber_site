@@ -44,7 +44,7 @@ body {
   height: 40px;
   flex: 0 0 auto;
   /* Align the visible monogram with the lettering's optical centre. */
-  transform: translateY(-.2em);
+  transform: translateY(-.3em);
 }
 main {
   grid-row: 2;

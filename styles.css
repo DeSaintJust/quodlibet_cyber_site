@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Instrument Sans";
-  src: url("./instrument-sans.woff2?v=c459e1f55ad2") format("woff2");
-  font-weight: 400 700;
+  font-family: "Ubuntu Sans Mono";
+  src: url("./ubuntu-sans-mono.ttf?v=507870a3fe57") format("truetype");
+  font-weight: 100 700;
   font-style: normal;
   font-display: swap;
 }
@@ -11,7 +11,7 @@
   --red: #f80000;
   --black: #000000;
   --gutter: clamp(24px, 4vw, 80px);
-  font-family: "Instrument Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu Sans Mono", ui-monospace, monospace;
   color: var(--red);
   background: var(--black);
   font-synthesis: none;
@@ -41,9 +41,10 @@ main {
 h1 {
   margin: 0;
   font-size: clamp(48px, 15vw, 224px);
-  font-weight: 650;
+  font-weight: 400;
   line-height: 1;
-  letter-spacing: -.045em;
+  letter-spacing: normal;
+  white-space: nowrap;
 }
 h1 a { color: inherit; text-decoration: none; }
 h1 a:hover, h1 a:focus-visible {
@@ -53,5 +54,5 @@ h1 a:hover, h1 a:focus-visible {
 }
 h1 a:focus-visible { outline: 2px solid currentColor; outline-offset: 6px; }
 @media (max-width: 480px) {
-  h1 { font-size: clamp(56px, 18vw, 86px); }
+  h1 { font-size: clamp(32px, 14vw, 68px); }
 }

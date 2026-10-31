@@ -54,22 +54,10 @@ h1 em { font-style: normal; color: var(--accent); }
 .hero-lattice { width: 120%; max-width: none; margin-left: -6%; }
 .section-connector { display: block; height: 40px; pointer-events: none; }
 
-.approach { padding-block: 60px 100px; display: grid; grid-template-columns: 1fr 1fr; gap: 104px; }
-.section-heading { position: relative; isolation: isolate; }
-.section-heading .eyebrow { margin-bottom: 28px; }
-.section-heading .eyebrow, .capabilities .eyebrow, .closing .eyebrow { display: flex; align-items: center; gap: 12px; }
-.section-heading .eyebrow::before, .capabilities .eyebrow::before, .closing .eyebrow::before { content: ""; width: 7px; height: 7px; flex: 0 0 auto; border: 1px solid currentColor; transform: rotate(45deg); }
-.approach-lattice { position: absolute; left: -180px; bottom: -120px; width: 360px; opacity: .16; z-index: -1; }
+.capabilities .eyebrow, .closing .eyebrow { display: flex; align-items: center; gap: 12px; }
+.capabilities .eyebrow::before, .closing .eyebrow::before { content: ""; width: 7px; height: 7px; flex: 0 0 auto; border: 1px solid currentColor; transform: rotate(45deg); }
 h2 { font-size: clamp(32px, 3.2vw, 46px); line-height: 1.12; letter-spacing: -.045em; font-weight: 500; }
-.section-heading > p:not(.eyebrow) { margin-top: 28px; color: var(--muted); font-size: 16px; line-height: 1.75; max-width: 420px; }
-.steps { position: relative; list-style: none; padding: 0; margin: 0; }
-.steps::before { content: ""; position: absolute; left: 14px; top: 15px; bottom: 45px; width: 1px; background: var(--accent); opacity: .3; }
-.steps li { display: flex; gap: 24px; padding-block: 26px; border-top: 1px solid var(--line); }
-.steps li:first-child { padding-top: 0; border-top: 0; }
-.steps li:last-child { padding-bottom: 0; }
-.step-number { position: relative; z-index: 1; display: grid; place-items: center; flex: 0 0 29px; height: 29px; border: 1px solid var(--accent-ink); background: var(--paper); font: 11px "Courier New", monospace; color: var(--accent-ink); }
 h3 { font-size: 22px; font-weight: 500; letter-spacing: -.025em; line-height: 1.25; }
-.steps p { margin-top: 10px; font-size: 15px; line-height: 1.7; color: var(--muted); max-width: 390px; }
 
 .capabilities { position: relative; overflow: hidden; background: var(--accent); color: var(--ink); padding-block: 72px 80px; }
 .capabilities > .wrap { position: relative; isolation: isolate; }
@@ -107,7 +95,7 @@ h3 { font-size: 22px; font-weight: 500; letter-spacing: -.025em; line-height: 1.
   .wrap { width: calc(100% - 64px); }
   .hero { gap: 36px; }
   h1 { font-size: clamp(46px, 6.4vw, 68px); }
-  .approach, .capabilities-intro, .closing { gap: 48px; }
+  .capabilities-intro, .closing { gap: 48px; }
   .capability { gap: 32px; }
   .closing-aside { grid-template-columns: 110px 1fr; gap: 18px; }
   .closing-lattice { width: 110px; }
@@ -129,12 +117,7 @@ h3 { font-size: 22px; font-weight: 500; letter-spacing: -.025em; line-height: 1.
   .hero-geometry { max-width: 480px; width: 100%; margin-inline: auto; }
   .hero-lattice { width: 110%; margin-left: 0; }
   .section-connector { height: 24px; }
-  .approach { grid-template-columns: 1fr; gap: 42px; padding-block: 42px 60px; }
-  .approach-lattice { width: 240px; left: auto; right: -110px; bottom: -30px; opacity: .1; }
-  .section-heading .eyebrow { margin-bottom: 22px; }
-  .section-heading > p:not(.eyebrow) { max-width: none; margin-top: 22px; }
   h2 { font-size: clamp(31px, 6.5vw, 42px); }
-  .steps p { max-width: none; }
   .capabilities { padding-block: 52px 38px; }
   .capabilities-lattice { left: auto; top: -75px; right: -120px; width: 390px; opacity: .1; }
   .capabilities-intro { grid-template-columns: 1fr; gap: 22px; margin-bottom: 36px; }

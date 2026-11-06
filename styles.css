@@ -40,7 +40,7 @@ main {
 }
 h1 {
   margin: 0;
-  font-size: clamp(48px, 15vw, 224px);
+  font-size: clamp(34px, 10.5vw, 224px);
   font-weight: 400;
   line-height: 1;
   letter-spacing: normal;
@@ -54,5 +54,5 @@ h1 a:hover, h1 a:focus-visible {
 }
 h1 a:focus-visible { outline: 2px solid currentColor; outline-offset: 6px; }
 @media (max-width: 480px) {
-  h1 { font-size: clamp(32px, 14vw, 68px); }
+  h1 { font-size: clamp(24px, 10vw, 48px); }
 }
